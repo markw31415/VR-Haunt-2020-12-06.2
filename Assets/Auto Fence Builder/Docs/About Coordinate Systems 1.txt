@@ -1,0 +1,16 @@
+﻿Axes & Coordinate systems
+
+Axes and  coordinate systems are different in different modelling software, e.g in Unity, Maya  and Cinema 4D, Y is up, whereas in 3DS Max and Blender, Z is up. 
+There can also be differences in whether the depth (Z in Unity) is positive going in or out of the screen.
+
+If you’re importing your own models this can be confusing as the mesh might appear rotated once it’s in Unity or Auto Railtrack Builder.
+
+By default, AFB assumes the Unity coordinate system where Y is up.
+
+The X axis is consistent in all packages, so AFB Rail meshes are created so that the length of the rail lies along the X axis. (Most commercial models tend to have the longer side of the model going along X also) 
+
+
+Coders who want to modify the source might notice an inconsistency with rotation axes in Vector3 variables. 
+For most code purposes we want to treat the length of the rail as going 'forward', which of course is Z in Unity, 
+but because the rail meshes have the length along the X axis, it's sometimes necessary to swap the x and z. e.g. you might see something like:
+rail.transform.Rotate(new Vector3(zValue, yValue, xValue));

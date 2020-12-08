@@ -1,0 +1,3 @@
+These are the presets used in fences that have been Finished ('Finish & Start New' or 'Finish & Duplicate').
+They are used to recreate the original editing session from before a fence was finished,
+ so they should not be deleted, moved from this parent folder, or edited.

@@ -1,0 +1,1298 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f413cba91fa148029d24f8978014515, type: 3}
+  m_Name: 'Rebar Stacked '
+  m_EditorClassIdentifier: 
+  categoryName: Metal
+  postName: Rebar_Post
+  usePosts: 1
+  postSize: {x: 2, y: 2, z: 2}
+  postRotation: {x: 0, y: 0, z: 0}
+  mainPostSizeBoost: {x: 1.6, y: 1.1, z: 1.6}
+  allowPostHeightVariation: 0
+  minPostHeightVar: 0.95
+  maxPostHeightVar: 1.05
+  allowRandPostRotationVariation: 0
+  postRandRotationAmount: {x: 0, y: 0, z: 0}
+  postQuantizeRotAmount: 90
+  allowQuantizedRandomPostRotation: 0
+  chanceOfMissingPost: 0
+  usePostVariations: 0
+  postVariants:
+  - go: {fileID: 0}
+    goName: Rebar_Post
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 0
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  - go: {fileID: 0}
+    goName: Rebar_Post
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 0
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  - go: {fileID: 0}
+    goName: Rebar_Post
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 0
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  - go: {fileID: 0}
+    goName: Rebar_Post
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 0
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  - go: {fileID: 0}
+    goName: Rebar_Post
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 0
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  userSequencePost:
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  numUserSeqStepsPost: 5
+  postRandRec:
+    sequenceShuffle: 0
+    heightVariation: 0
+    smallRotVariation: 0
+    quantRotVariation: 0
+  useMainRails: 1
+  railAName: Rebar_Rail
+  numStackedRailsA: 5
+  railASpread: 1.65
+  railAPositionOffset: {x: 0, y: 0.19, z: 0}
+  railASize: {x: 1.05, y: 1.2, z: 1.2}
+  railARotation: {x: 0, y: 0, z: 0}
+  railAKeepGrounded: 0
+  overlapAtCorners: 1
+  autoHideBuriedRails: 1
+  slopeModeRailA: 2
+  railARandomScope: 2
+  allowRailAHeightVariation: 0
+  minRailAHeightVar: 0.97
+  maxRailAHeightVar: 1.03
+  allowRandRailARotationVariation: 0
+  railARandRotationAmount: {x: 0, y: 0, z: 0}
+  chanceOfMissingRailA: 0
+  useRailAVariations: 0
+  scaleVariationHeightToMainHeightA: 0
+  allowIndependentSubmeshVariationA: 0
+  variationModeRailA: 2
+  railAVariants:
+  - go: {fileID: 0}
+    goName: Rebar_Rail
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 1
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  - go: {fileID: 0}
+    goName: Rebar_Rail
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 0
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  - go: {fileID: 0}
+    goName: Rebar_Rail
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 0
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  - go: {fileID: 0}
+    goName: Rebar_Rail
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 0
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  - go: {fileID: 0}
+    goName: Rebar_Rail
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 0
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  userSequenceRailA:
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  numUserSeqStepsRailA: 5
+  optimalSequenceRailA:
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  railARandRec:
+    sequenceShuffle: 0
+    heightVariation: 0
+    smallRotVariation: 0
+    quantRotVariation: 0
+  railBName: Brick_Wall-LowX_Panel_Rail
+  useSecondaryRails: 0
+  numStackedRailsB: 1
+  railBSpread: 0.2
+  railBPositionOffset: {x: 0, y: 0.15, z: 0}
+  railBSize: {x: 1, y: 2, z: 2}
+  railBRotation: {x: 0, y: 0, z: 0}
+  railBKeepGrounded: 1
+  slopeModeRailB: 2
+  railBRandomScope: 2
+  allowRailBHeightVariation: 0
+  minRailBHeightVar: 0.97
+  maxRailBHeightVar: 1.03
+  allowRandRailBRotationVariation: 0
+  railBRandRotationAmount: {x: 0.03, y: 0.03, z: 0.03}
+  chanceOfMissingRailB: 0
+  useRailBVariations: 0
+  scaleVariationHeightToMainHeightB: 0
+  allowIndependentSubmeshVariationB: 0
+  variationModeRailB: 0
+  railBVariants:
+  - go: {fileID: 0}
+    goName: Brick_Wall-LowX_Panel_Rail
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 1
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  - go: {fileID: 0}
+    goName: Brick_Wall-LowX_Panel_Rail
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 0
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  - go: {fileID: 0}
+    goName: Brick_Wall-LowX_Panel_Rail
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 0
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  - go: {fileID: 0}
+    goName: Brick_Wall-LowX_Panel_Rail
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 0
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  - go: {fileID: 0}
+    goName: Brick_Wall-LowX_Panel_Rail
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 0
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  userSequenceRailB:
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  numUserSeqStepsRailB: 5
+  optimalSequenceRailB:
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  railBRandRec:
+    sequenceShuffle: 0
+    heightVariation: 0
+    smallRotVariation: 0
+    quantRotVariation: 0
+  subPostName: MetalSquareBev_Post
+  useSubPosts: 0
+  subsFixedOrProportionalSpacing: 1
+  subSpacing: 2.51
+  subPositionOffset: {x: 0, y: 0, z: 0}
+  subSize: {x: 1, y: 0.4, z: 1}
+  subRotation: {x: 0, y: 0, z: 0}
+  forceSubsToGroundContour: 0
+  useWave: 0
+  useSubJoiners: 0
+  frequency: 1
+  amplitude: 0.066
+  wavePosition: 1.571
+  subPostSpread: 0
+  allowSubPostHeightVariation: 0
+  minSubPostHeightVar: 0.95
+  maxSubPostHeightVar: 1.05
+  allowRandSubPostRotationVariation: 0
+  subPostRandRotationAmount: {x: 0, y: 0, z: 0}
+  subPostQuantizeRotAmount: 90
+  allowQuantizedRandomSubPostRotation: 0
+  chanceOfMissingSubPost: 0
+  useSubpostVariations: 0
+  subpostVariants:
+  - go: {fileID: 0}
+    goName: MetalSquareBev_Post
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 0
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  - go: {fileID: 0}
+    goName: MetalSquareBev_Post
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 0
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  - go: {fileID: 0}
+    goName: MetalSquareBev_Post
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 0
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  - go: {fileID: 0}
+    goName: MetalSquareBev_Post
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 0
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  - go: {fileID: 0}
+    goName: MetalSquareBev_Post
+    positionOffset: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rotation: {x: 0, y: 0, z: 0}
+    enabled: 0
+    probability: 0.5
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    singleIndex: -1
+  userSequenceSubpost:
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  - variantEnabled: 1
+    objIndex: 0
+    invert: 0
+    backToFront: 0
+    mirrorZ: 0
+    pos: {x: 0, y: 0, z: 0}
+    size: {x: 1, y: 1, z: 1}
+    rot: {x: 0, y: 0, z: 0}
+    probability: 1
+    go: {fileID: 0}
+    stepEnabled: 1
+  numUserSeqStepsSubpost: 5
+  subpostRandRec:
+    sequenceShuffle: 0
+    heightVariation: 0
+    smallRotVariation: 0
+    quantRotVariation: 0
+  useExtraGameObject: 0
+  extraName: Brick_Post
+  relativeMovement: 0
+  relativeScaling: 0
+  extraPositionOffset: {x: 0, y: 0, z: 0}
+  extraSize: {x: 1, y: 1, z: 2}
+  extraRotation: {x: 0, y: 0, z: 0}
+  extraFrequency: 1
+  makeMultiArray: 0
+  numExtras: 1
+  extrasGap: 1
+  raiseExtraByPostHeight: 1
+  postHeightOffset: 0
+  interpolate: 1
+  interPostDist: 4
+  smooth: 0
+  tension: 0
+  roundingDistance: 6
+  removeIfLessThanAngle: 4.5
+  stripTooClose: 0.35
+  globalScale: {x: 1, y: 1, z: 1}
+  scaleInterpolationAlso: 1
+  snapMainPosts: 0
+  snapSize: 1
+  hideInterpolated: 0
+  lerpPostRotationAtCorners: 1
+  postSpacingVariation: 0

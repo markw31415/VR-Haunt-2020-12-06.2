@@ -1,0 +1,9 @@
+To see how to access AFWB from your own scripts:
+
+Load the ‘Calling AFWB from Custom Script’ scene.
+Select Auto Fence Builder (This is just to ‘wake’ it)
+Select Custom Script Demo, and in its Inspector press ‘Test’
+
+If you look in the attached script you can see that both the positions and design have been set by calling AFWB’s main class directly.
+
+You're welcome to contact support if you need more help with this, or info on what AFWB parameters are available.

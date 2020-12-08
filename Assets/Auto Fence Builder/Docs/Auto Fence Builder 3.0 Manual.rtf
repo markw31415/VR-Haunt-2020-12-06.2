@@ -1,0 +1,76 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red34\green34\blue34;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww22740\viewh18960\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \
+The included pdf manual was for v2.1, so does not cover the new Variation system, although the basic operation is still the same. \
+\
+There will be a new manual with the next update, in the meantime please check out the new tutorial videos (linked to on the Auto Fence & Wall Builder asset store page) for detailed walkthroughs of the new features, or contact twoclicktools@gmail.com\
+\
+\
+\ul Upgrading from AFWB 2.x to 3.0\ulnone \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf2 Backup your Project Folder if you intend to overwrite a project currently using Auto Fence Builder. Preferably test-drive v3.0 in a new project first.\uc0\u8232 \'95 'Finish' any live fences\u8232 \'95 Drag the folder 'UserGeneratedRailMeshes' out of the old Auto Fence Builder folder in the Assets folder\u8232 \'95 Completely remove the old version of Auto Fence Builder from the Hierarchy and the Project (Assets Folder). \u8232 Game Objects will have missing textures (and appear pink) after removing the old version, but will return when importing this new version.\u8232 \'95 After importing AFWB 3.0, put the 'UserGeneratedRailMeshes' folder back in to the top level of the 'Auto Fence Builder' folder 
+\f0 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\
+\
+
+\b \ul Quick overview of Variations system
+\b0 \ulnone \
+\
+\
+Each Rail or Post component can now have up to 5 alternative variations.  The variations can all use their own GameObject and settings.\
+\
+After enabling, for example "Use Rail A Variations" you'll see a toolbar with three choices:\
+\
+
+\b\fs26 \'95 Quick Optimal Mode
+\b0\fs24 \
+\
+Here you can choose the 4 extra variation Game Objects from popup menus, and each variation has its own parameters for orientation (Back, MirrorZ, Onvert), Position, Size and Rotation.\
+\
+AFWB will arrange these variations (main + 4) so as to maximise the differences. You can enable/disable each one to see how different combinations look.\
+\
+
+\b\fs26 \'95 Random Variation\
+\
+
+\b0\fs24 This is similar to Quick Optimal, although the variations are arranged randomly.\
+\
+\
+
+\b\fs26 \'95 Sequenced\
+\
+
+\b0\fs24 In this mode you have between 2 and 20 steps, each step controls the choice and settings of that particular section. The sequence loops, so for example, if you had a fence/wall that was 10 sections long, and you created a sequence of 3 steps: \
+Step 1 would control section 1\
+Step 2 would control section 2\
+Step 3 would control section 3\
+Step 1 would control section 4, [steps are looping]\
+etc\'85\
+\
+In total you would have:\
+\
+Fence Section:	1	2	3	4	5	6	7	8	9	10\
+Step:			1	2	3	1	2	3	1	2	3	1\
+\
+If you then extended the fence to be much longer, the sequence of steps would loop to control every section.\
+\
+In Sequenced mode, hovering over any Rail section while holding \'91control\'92 will highlight that step in the Sequencer. You can control-right-click to bring up a popup menu of variations to assign to that part of the loop cycle.\
+\
+
+\b\fs26 \
+\'95 Singles\
+\
+
+\b0\fs24 These appear at the bottom of the variations section and allow you to add single instances. Whereas the three modes above let you control the entire length of your fence, Singles allow you to modify any individaul Rail Section by control-right-clicking on the fence section in the  Scene View, the choosing the variation from the popup menu. These will overide that particular sections choice in Optimal/Random/Sequenced mode.\
+For example, you may have set up the variations so you have 2 alternating different brick-wall sections for your whole wall of length, say, 20 sections. However, you\'92d like just section 11 to be a corrugated metal panel. By control-right-clicking you can assign this to just section 11. In Sequence Mode, you will see the menu duplicated, here you can assign a Single variation as just described, or alternatively assign a new variation to that element in your sequence. If you do the latter, the new assignment will loop with your sequence of steps.
+\b\fs26 \
+\
+}

@@ -1,0 +1,24 @@
+﻿Auto Fence & Wall Builder March 2019
+
+Load Demo Scene ( or create your a new one with either a terrain or a plane to act as the ground)
+
+Add Auto Railtrack Builder from the Game Object menu, or press shift-alt-F.
+
+With Auto Railtrack Builder selected, shift-click 2 or more times in the scene view (in editor mode). You should now see your fence.
+
+Select any style of fence from 'Choose Preset' popupmenu.
+
+You can now adjust any of the parameters of the fence.
+
+For better visual quality, enable Anti-Aliasing in the Edit Menu/Project Settings/Quality
+
+See the manual for more details.
+
+twoclicktools@gmail.com
+
+Happy Fencing!
+
+
+Updating from 2.x to 3.x
+
+Backup your Project Folder if you intend to overwrite a project currently using Auto Railtrack Builder. Preferably test-drive v3.0 in a new project first. • 'Finish' any live fences • Drag the folder 'UserGeneratedRailMeshes' out of the old Auto Railtrack Builder folder in the Assets folder • Completely remove the old version of Auto Railtrack Builder from the Hierarchy and the Project (Assets Folder).  Game Objects will have missing textures (and appear pink) after removing the old version, but will return when importing this new version. • After importing AFWB 3.0, put the 'UserGeneratedRailMeshes' folder back in to the top level of the 'Auto Railtrack Builder' folder 

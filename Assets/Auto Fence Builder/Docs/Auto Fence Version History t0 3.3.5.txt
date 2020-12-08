@@ -1,0 +1,190 @@
+﻿3.3.5
+
+Bug fixes only for issues introduced in Unity 2019.3.0
+
+
+
+
+
+3.3
+
+New Features
+
+• It's now possible to make a minimal package of AFWB with no prefabs - just the tools to use with your custom objects,
+
+
+Bug Fixes
+
+• Fixed problem in 2019.1.6 with error when Finishing fence.
+
+
+
+
+3.2
+
+New Features
+
+• The Auto Fence Builder folder can now be placed anywhere in your Assets folder
+• There is the option to show preview guides from mouse-position, where the next section will be build. (see below)
+• Finished fences/walls (v3.2+) can now be brought back to life and re-edited.
+• Added 'Save Meshes' while editing capability (for those using 3rd-party assets that require AFWB's mesh assets)
+• Added Concrete and Wood Decorative wall designs. (see below)
+
+Bug Fixes
+
+• Fixed mislabelled Delete Node hint (should be control-left-click)
+• Fixed issue with AFWB prefabs not being available outside of AFWB
+
+
+
+
+3.1
+
+New Features
+
+• Smaller, simplified UI - only see the tools you need.
+• Auto Assign Variations - some one-click starting points for variations
+• Basic Unity LOD group setup - each finished fence/wall can be assigned a LOD with distance disable
+• Triangle usage displayed in Scene View can be enabled/disabled
+• Tooltip help on every control and parameter
+• Subposts now have variations
+• Control Nodes can be enabled within Scene View
+• Military category added with new complete fences & walls, and new component parts
+
+Improvements
+
+• Optimised & refactored code - 2-300% faster build times in the editor
+
+Bug Fixes
+
+• Fixed issue where under some circumstances Undo can create duplicated GameObjects that had to be cleared with ‘Rebuild’
+• Fixed geometry errors on highly rotated panels on steeply-sloped surfaces.
+
+
+
+3.0
+
+Backup your Project Folder if you intend to overwrite a project currently using Auto Railtrack Builder. Preferably test-drive v3.0 in a new project first.
+• 'Finish' any live fences
+• Drag the folder 'UserGeneratedRailMeshes' out of the old Auto Railtrack Builder folder in the Assets folder
+• Completely remove the old version of Auto Railtrack Builder from the Hierarchy and the Project (Assets Folder). 
+Game Objects will have missing textures (and appear pink) after removing the old version, but will return when importing this new version.
+• After importing AFWB 3.0, put the 'UserGeneratedRailMeshes' folder back in to the top level of the 'Auto Railtrack Builder' folder 
+
+
+
+Contains major code changes, not suitable for overwriting a 'live' Auto Fence scene in progress. "Finish &Start New" to bake your Fence if you have one in progress.
+
+New Features:
+•Variations - up to 5 different Game Objects can be used per component. These can be arranged free-hand, optimally varied, random, or sequenced giving you control over every individual panel.
+•New Preset System - arranged hierarchically by category and name. 
+•Prefab Categories - the component prefabs, rail/post/crossbars etc. are now categorised
+•Many new prefabs
+•Triangle count display in Scene View
+
+
+
+
+2.1
+
+Backup your Project Folder if you intend to overwrite a project currently using Auto Railtrack Builder. 'Finish' any live fences, and remove the old version of Auto Railtrack Builder from the Hierarchy.
+Contains major code changes, not suitable for overwriting a 'live' Auto Fence scene in progress. "Finish &Start New" to bake your Fence if you have one in progress.
+
+New Features:
+•Custom objects can easily be drag&dropped into the appropriate slot
+•Combine tool for combining complex GameObjects into a single mesh to use as post or wall
+•New category of parts: ‘Crossbar’, to supplement posts, rails & subposts
+•Many new prefabs
+•More Random options. Randomly remove parts. Save Random seed with presets
+•Improved fake mitering of wall-ends.
+•Beta support for custom nested objects
+•Subposts can now be aligned with Main posts to works as compound post designs
+•Fences can be wound in reverse order. This has the effect of making all parts turn 180.
+
+
+2.0
+
+Backup your Project Folder if you intend to overwrite a project currently using Auto Railtrack Builder. 
+'Finish' any live fences, and remove the old version of Auto Railtrack Builder from the Hierarchy.
+Contains major code changes, not suitable for overwriting a 'live' Auto Fence scene in progress, but 'Finished' fences will be unaffected.
+"Finish &Start New" to bake your Fence if you have one in progress.
+
+New Features:
+•Secondary Rail Types
+•Unity 5 PBR Materials
+•New Castle & Fortress builds
+•Many new rail/post/wall parts
+•More suitable for walls
+•Fence cloning
+•More Randomization options
+•Switchable post rotation lerping
+•Snapping to Unity World Grid
+
+Bug Fixes:
+
+- Fixed issue when saving Rail meshes.
+
+
+1.2
+
+Contains major code changes, not suitable for overwriting a 'live' Auto Fence scene in progress.
+"Finish &Start New" to bake your Fence if you have one in progress.
+Please backup your scene and remove the old version of AFB from your Project folder.
+
+Added:
+Gaps can now be created within fences.
+Global Scale control
+Utility for permanently combining mesh parts, or only combining via script
+New Barbed Wire fence type
+
+Bug Fixes:
+- Prefabs now store own meshes in the case of sheared Panel Rails
+- Fixed issue with a 5 prefab parts not lightmapping correctly
+
+1.1
+Added:
+GildedAssassin Preset
+ConcreteMouldyPanels Preset
+ConcreteMouldy_Panel_Rail prefab
+ConcreteMouldy_Post prefab
+Gilded1_Panel_Rail prefab
+
+Bug Fixes
+- Fixed build errors
+- Fixed problem related to Web Player build settings preventing compilation.
+
+
+1.0
+Initial Release
+
+1.2
+
+Contains major code changes, not suitable for overwriting a 'live' Auto Fence scene in progress.
+"Finish &Start New" to bake your Fence if you have one in progress.
+Please backup your scene and remove the old version of AFB from your Project folder.
+
+Added:
+Gaps can now be created within fences.
+Global Scale control
+Utility for permanently combining mesh parts, or only combining via script
+New Barbed Wire fence type
+
+Bug Fixes:
+- Prefabs now store own meshes in the case of sheared Panel Rails
+- Fixed issue with a 5 prefab parts not lightmapping correctly
+
+1.1
+
+Added:
+GildedAssassin Preset
+ConcreteMouldyPanels Preset
+ConcreteMouldy_Panel_Rail prefab
+ConcreteMouldy_Post prefab
+Gilded1_Panel_Rail prefab
+
+Bug Fixes:
+- Fixed build errors
+- Fixed problem related to Web Player build settings preventing compilation.
+
+1.0
+Initial Release

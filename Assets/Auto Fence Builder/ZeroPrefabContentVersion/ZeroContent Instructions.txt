@@ -1,0 +1,22 @@
+﻿This will allow you to create and export a package that has only the Auto Fence toolset and no prefab content, in the case that you only ant to use your own custom GameObjects as prefabs for AFWB.
+
+Important: Do this in a new clean project, with no instance of Auo Fence in the hierarchy. 
+Do not do this in a project that already uses AFWB, it would break all connections to the fence objects in your scene.
+
+
+• Find the file  'AutoFenceConfig'  in Auto Fence Builder/Editor/
+• Enable 'Allow Content Free Tool'
+
+• Delete the following folders:
+        Auto Fence Builder/FencePrefabs_AFWB  
+        Auto Fence Builder/Presets_AFWB
+        Auto Fence Builder/AFWB_Materials
+        Auto Fence Builder/AFWB_Textures
+• Select the Auto Fence Builder in your Assets folder, right click and 'Export Package...'
+• First select 'None' to ensure there are no hidden assets being exported, then enable 'Auto Fence Builder' and export to your prefered location.
+• You can now import this package in to a project to use the minimal version
+
+There will be only one test preset available in this mode (as the necessary prefabs are missing), though you may still save your own.
+
+If returning to the normal version of Auto Fence, don't forget to disable 'Allow Content Free Tool' in the AutoFenceConfig file.
+
