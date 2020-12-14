@@ -14772,6 +14772,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 872684401}
   m_Mesh: {fileID: 4300002, guid: 6e6fae1da58364cdb98c1660aa22360e, type: 3}
+--- !u!1 &874943544 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5843497292548984443, guid: c116b7497ab8ca34c9188965d4295e27,
+    type: 3}
+  m_PrefabInstance: {fileID: 1213097468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!81 &874943546
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874943544}
+  m_Enabled: 1
 --- !u!1 &876370080
 GameObject:
   m_ObjectHideFlags: 1
@@ -25719,7 +25733,7 @@ MonoBehaviour:
   autoRotationResults: {x: 0, y: 0, z: 0}
   railBoxColliderHeightScale: 1
   railBoxColliderHeightOffset: 0
-  needsReloading: 0
+  needsReloading: 1
   prefabsLoaded: 1
   initialReset: 1
   finishedFoldersParent: {fileID: 183773697}
