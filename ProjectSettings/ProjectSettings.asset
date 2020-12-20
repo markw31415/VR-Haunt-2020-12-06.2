@@ -157,7 +157,7 @@ PlayerSettings:
       lowOverheadMode: 0
       protectedContext: 0
       v2Signing: 1
-    enable360StereoCapture: 0
+    enable360StereoCapture: 1
   isWsaHolographicRemotingEnabled: 0
   enableFrameTimingStats: 0
   useHDRDisplay: 0
@@ -268,7 +268,7 @@ PlayerSettings:
   m_BuildTargetBatching:
   - m_BuildTarget: Standalone
     m_StaticBatching: 1
-    m_DynamicBatching: 0
+    m_DynamicBatching: 1
   - m_BuildTarget: tvOS
     m_StaticBatching: 1
     m_DynamicBatching: 0
@@ -678,5 +678,5 @@ PlayerSettings:
   organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 1
-  disableOldInputManagerSupport: 1
+  disableOldInputManagerSupport: 0
   legacyClampBlendShapeWeights: 0
